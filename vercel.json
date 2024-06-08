@@ -41,11 +41,6 @@
       "api/**/*": {
         "runtime": "nodejs14.x"
       }
-    },
-    "hooks": {
-      "build": {
-        "command": "prisma generate && npm run build"
-      }
-    }
+    } 
   }
   
