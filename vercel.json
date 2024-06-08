@@ -1,0 +1,51 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "pages/api/**/*",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "next.config.js",
+        "use": "@vercel/next"
+      },
+      {
+        "src": "/.*",
+        "use": "@vercel/edge-functions"
+      }
+    ],
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "pages/api/**/*",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "next.config.js",
+        "use": "@vercel/next"
+      },
+      {
+        "src": "/.*",
+        "use": "@vercel/edge-functions"
+      }
+    ],
+    "functions": {
+      "api/**/*": {
+        "runtime": "nodejs14.x"
+      }
+    },
+    "hooks": {
+      "build": {
+        "command": "prisma generate && npm run build"
+      }
+    }
+  }
+  
