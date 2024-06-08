@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Play Next.js is a free and **Open-source SaaS starter kit and boilerplate, designed and built for SaaS startups**, apps, businesses, and more. With its premium design and essential UI components and pages, it provides everything you need to kickstart a feature-rich SaaS website.
 
 
@@ -79,3 +80,6 @@ If you appreciate this project, please consider starring this repository. Your s
 
 ## Explore More Templates
 For a wider range of options, feel free to browse our collection of [Next.js Templates, Boilerplates and Starter Kits](https://nextjstemplates.com/templates).
+=======
+# tcs-co
+>>>>>>> origin/main
